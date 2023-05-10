@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Bayon&family=Crete+Round&family=Dokdo&family=Koulen&family=Londrina+Outline&family=Odibee+Sans&family=Oswald:wght@400;700&family=Playfair+Display&family=Sigmar&display=swap');
+
+
+
+body{
+    font-family: "sigmar";
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./imagenes/bokeh.jpg");
+    height: 100vh;
+    padding: 20px;
+}
+
+#h1,#h2{
+    margin: 2px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#inputs{
+    margin: 20px 0;
+}
+#opcion1{
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: none;
+    padding: 15px;
+    width: 180px;
+}
+#opcion2{
+    border-radius: 7px;
+    border: none;
+    padding: 15px;
+    width: 180px;
+}
+
+#btn{
+    border-radius: 7px;
+    border: none;
+    padding: 13px 9px;
+    width: 130px;
+    color: white;
+    background-color: rgb(31, 169, 10);
+    font-size: 15px;
+}
+
+#image{
+    width: 180px;
+    border-radius: 50%;
+    margin: 30px 0;
+
+}
+
+#txt{
+    color: red;
+    opacity: 0.7;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+@media (max-width: 359px) {
+    
+    #h1{
+        font-size: 30px;
+    }
+    
+    #h2{
+        font-size: 23px;
+    }
+    #image{
+        width: 140px;
+    }
+
+    #opcion1{
+        width: 80%;
+    }
+    #opcion2{
+        width: 80%;
+    }
+  
+    #btn {
+
+    width: 50%;
+    padding: 10px;
+    
+    }
+  }
+
+
+
+
