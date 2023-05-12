@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./imagenes/bokeh.jpg");
+    background-image: url("../imagenes/bokeh.jpg");
     height: 100vh;
     padding: 20px;
 }
